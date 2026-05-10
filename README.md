@@ -21,6 +21,7 @@ These details are for **after you have been inducted** — see the **Introductio
 - **Laptop:** There is a **laptop in the makerspace connected to this printer** that you can **use for jobs at DoES**. You do **not** have to bring your own computer unless you prefer your own files or setup (see **What to bring**).
 - **Network:** The printer is on the **DoES network**; the setup laptop is intended to **talk to the printer over that network** as part of the normal workflow (sending jobs, monitoring status — follow what you are shown on the day).
 - **Software:** eufyMake supplies **desktop** software (commonly called **eufyMake Studio**) and a **phone app**. The **desktop application is more fully featured**; the **phone app** is useful for quick tasks but is **not a full substitute** for desktop if you want every option (especially **textured / multi‑layer** work). **Prefer the desktop app on the DoES laptop** unless a facilitator suggests otherwise.
+- **Power and self-maintenance:** The printer runs **regular automatic maintenance** (cleaning / keep‑alive routines) so the **print heads** stay in good condition and are **less likely to block**. It should **remain connected to mains power** and sit in its **low‑power idle** state when nobody is printing — **do not** turn it off at the wall, unplug it, or strip its power **to save mains** unless a **DoES facilitator** tells you to (for example service or moving the machine). **Disrupting** those cycles can **clog** the heads and cause long downtime or cost for everyone.
 
 ## Access: using the printer after induction
 
@@ -126,6 +127,7 @@ If a link changes, start from **eufymake.com** and use their **Support** / **Sof
 - **Pause or stop** if you hear odd noises, see the head drag, or smell anything unusual — then **get someone at DoES**.
 - **If you see unexpected UV exposure**, an **open light path** when it should be shielded, or **anyone** might look into a **bright UV source** — **stop the job immediately**, ensure people move to a safe position, and **get help**. **Eye safety** is not something to troubleshoot alone.
 - **Don’t open consumables** you don’t need, and **don’t guess** on cleaning fluids — wrong chemistry can wreck the machine.
+- **Don’t cut mains power** or hard‑switch the printer off to “reset” a problem **without** talking to someone at DoES first — you can interrupt **scheduled head maintenance** and make **blockages** more likely.
 - For **warranty / hardware faults**, you’ll need **whoever owns the machine** to contact **eufyMake support**; visitors usually can’t do that on someone else’s behalf.
 
 ---
