@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
-"""Greyscale Mandelbrot height map: white = zero height, black = full height (lithophane / relief)."""
+# SPDX-License-Identifier: MIT
+"""
+Optional extra (not required to use the eufyMake printer):
 
+Greyscale Mandelbrot height map for workflows that treat brightness as height
+(e.g. some relief / texture experiments). Convention here: white = zero height,
+black = full height. See repo README for visitor-focused printer guidance.
+
+Dependencies: pip install -r requirements.txt (from repository root).
+
+Licensed under the MIT License; see LICENSE-MIT in the repository root.
+"""
+
+import argparse
 import numpy as np
 from PIL import Image
 
@@ -76,6 +88,17 @@ def smooth_to_grey(
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Generate Mandelbrot greyscale height map PNG (optional tool; not needed for E1 printing)."
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        default="mandelbrot_heightmap.png",
+        help="Output PNG path (default: mandelbrot_heightmap.png next to cwd)",
+    )
+    args = parser.parse_args()
+
     if SUPERSAMPLE > 1:
         h, w = HEIGHT * SUPERSAMPLE, WIDTH * SUPERSAMPLE
         sm, inside = mandelbrot_smooth(h, w)
@@ -87,9 +110,8 @@ def main() -> None:
         g = smooth_to_grey(sm, inside)
         img = Image.fromarray(g, mode="L")
 
-    out = "mandelbrot_heightmap.png"
-    img.save(out, dpi=(PRINT_DPI, PRINT_DPI))
-    print(out, img.size, f"{PRINT_DPI} dpi ~{PHYSICAL_IN:g} inch side")
+    img.save(args.output, dpi=(PRINT_DPI, PRINT_DPI))
+    print(args.output, img.size, f"{PRINT_DPI} dpi ~{PHYSICAL_IN:g} inch side")
 
 
 if __name__ == "__main__":

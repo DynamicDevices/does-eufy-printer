@@ -1,0 +1,19 @@
+Dual licensing
+
+This repository uses two licenses, depending on what you are reusing:
+
+1) Software (MIT)
+   - Applies to: source code under scripts/ and requirements.txt
+   - Full terms: LICENSE-MIT
+   - SPDX-License-Identifier: MIT (for those files)
+
+2) Documentation and images (CC BY 4.0)
+   - Applies to: README.md, files under assets/, and other prose or imagery
+     that is not source code listed above
+   - Full terms: LICENSE-CC-BY-4.0.txt
+   - Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+   - When reusing the sample coaster photograph, credit Jackie Pease as
+     described in README.md
+
+If in doubt, ask the maintainers. Third-party tradenames (e.g. eufyMake) are
+property of their respective owners.

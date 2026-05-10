@@ -1,0 +1,3 @@
+# Optional: only needed for scripts/generate_mandelbrot_heightmap.py
+numpy>=1.24,<3
+pillow>=10,<12

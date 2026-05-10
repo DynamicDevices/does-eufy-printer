@@ -1,92 +1,110 @@
-# does-eufy-printer — Mandelbrot height map for relief / lithophane prints
+# eufyMake printer at DoES Liverpool
 
-Grayscale **Mandelbrot** image and generator for tooling that treats **brightness as height** on the build plate:
+Simple notes for **anyone visiting [DoES Liverpool](https://doesliverpool.com/)** who wants to use the **[eufyMake](https://www.eufymake.com/) E1** — a desktop **UV inkjet** printer that can build **raised, full‑colour “3D texture”** on flat objects (and more with add‑ons you may not have on site).
 
-- **White (255)** → **minimum** height (“zero”).
-- **Black (0)** → **maximum** full height depth.
+You do **not** need a technical background. When something below says “software” or “file”, think “the app on the laptop” and “the thing you save before printing”.
 
-PNG is **`L` mode** (true greyscale); embeds **resolution metadata** (`dpi`) for tooling that honours it.
+**Loan and introductions:** **eufyMake** have **lent** this printer to **[DoES Liverpool](https://doesliverpool.com/) makerspace** for **one year**. DoES are **organising introduction and induction events** for people who want to try the printer or learn the basics — many sessions are **bookable on Eventbrite**. Example: **[Introduction to the eufyMake E1 UV texture printer](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)** *(search Eventbrite or ask DoES for other dates if that listing has passed).*
 
-Upstream repository: **`git@github.com:DynamicDevices/does-eufy-printer.git`**
-
----
-
-## What’s in here
-
-| Item | Purpose |
-|------|---------|
-| `scripts/generate_mandelbrot_heightmap.py` | Computes smooth escape‑time Mandelbrot, tones to greyscale, saves PNG. |
-| `mandelbrot_heightmap.png` | Checked‑in artefact (~5″ × 5″ nominal at **1440 dpi** embedded in PNG). |
+You can also check **[doesliverpool.com](https://doesliverpool.com/)** events and ask when you visit the space.
 
 ---
 
-## Design history (working notes)
+## What this machine is (in plain language)
 
-The following summarizes the iterative requirements and fixes from the authoring session:
+- **It is not a normal paper printer.** It jets **UV‑cured ink** onto things like plastic, wood, metal, ceramic, acrylic, and many other surfaces (always check the manufacturer’s guidance for your exact item).
+- **It can print tall enough layers that you can feel the design** — embossing, brush‑stroke effects, textures. Marketing often calls this **“3D‑texture UV printing”**; the ink hardens under UV light.
+- **Typical workflow:** prepare a design in **eufyMake’s software**, place your object on the bed, let the printer measure height where needed, then print.
 
-1. **Goal** — A **greyscale height map** (not discrete steps) derived from grey level for **FDM lithophane / displacement** workflows: printable texture height proportional to inverse brightness (lighter = thinner / lower).
-2. **Subject** — **Mandelbrot set**, smooth/normalized escape time colouring.
-3. **First tonal issue** — Mapping `smooth_iteration / MAX_ITER` made nearly all **exterior** pixels land in grey **249–254** (~78% by area) because median escape‑time depth outside the set is only a handful of iterations while `MAX_ITER` was hundreds. Visually **black-and-white**, unusable as a smooth ramp.
-4. **Fix** — Exterior tonemapping switched to **`log1p(smooth_iteration)`** with **percentile stretching** (`p_low` / `p_high`) plus light **gamma**. **Interior** of the set is forced to **`grey = 0` (full height plateau)** separately from halo pixels.
-5. **Print resolution** — Output embedded at **`PRINT_DPI = 1440`**, with **`WIDTH` / `HEIGHT` = `PHYSICAL_IN × PRINT_DPI`** (default **5 in** ⇒ **7200×7200** — long render).
-6. **Physical interpretation sanity check** — Interior is intentionally a **flat maximum‑height plateau**; fine relief is primarily in the **outside** halo plus rare very dark escaped filaments (~full height ridges). Typical slicers need **invert** if they assume white = tallest.
-7. **Repo split** — This tree was peeled out of **`vixdt`** so only Mandelbrot/print artefacts live here; product firmware layers stay elsewhere.
+Official overview and specs: [eufyMake E1 product page](https://www.eufymake.com/products/eufymake-e1).
 
 ---
 
-## Behaviour (how height maps mentally)
+## Example from DoES: Mandelbrot on a coaster
 
-Roughly, for **escaped** pixels:
+**Jackie Pease** ran this job on the DoES **eufyMake** printer: a **Mandelbrot set** (a famous mathematical fractal) on a **round coaster-sized disc**. The print shows **crisp edges** and **fine branching detail** around the black shape, on a **light grey** base — a good real-world sign that the machine can hold **high‑contrast artwork** and **intricate lines**.
 
-`log1p(smooth_escape)` → clip to percentile window → gamma → **`grey = (1 − t)×255`** (near boundary ⇒ darker ⇒ **taller** when black = tall).
+![Mandelbrot fractal printed on a circular coaster at DoES Liverpool — print by Jackie Pease](assets/jackie-pease-mandelbrot-coaster.png)
 
-For **non‑escaped** (inside the Mandelbrot set):
-
-→ **`grey = 0`** (plateau).
-
----
-
-## Dependencies
-
-```text
-numpy
-pillow (PIL)
-```
-
-Example:
-
-```bash
-python3 -m pip install --user numpy pillow
-```
+*Photo: successful test print by Jackie Pease.  
+If you want to try something similar, the repo includes an optional script (`scripts/generate_mandelbrot_heightmap.py`) that can produce a **greyscale height map** for texture-style workflows — most people will prepare art directly in **eufyMake Studio** instead.*
 
 ---
 
-## Regenerate PNG
+## Before you touch the printer
 
-Always run **from this directory** so outputs land beside the PNG:
+1. **Talk to someone at DoES first**  
+   Makerspace tools are usually **induction-led**. Don’t assume you can walk up and use the machine alone. **Book an introduction** where offered — DoES often list these on **[Eventbrite](https://www.eventbrite.co.uk/)** (e.g. [this eufyMake E1 intro session](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)); new listings may appear for later dates. Otherwise ask at a **maker evening / workshop** or during your visit **where the printer lives, whether it’s in use, and what the local rules are** (booking, materials, cleanup).
 
-```bash
-cd /path/to/does-eufy-printer
-python3 scripts/generate_mandelbrot_heightmap.py
-```
+2. **Read the manufacturer’s safety notes on UV ink**  
+   Ink and cleaning supplies need **sensible handling** (skin/eye contact, ventilation, storage). Start here:  
+   [All About eufyMake UV Ink](https://www.eufymake.com/blogs/news/all-about-eufymake-uv-ink).
 
-Tune at top of **`generate_mandelbrot_heightmap.py`**:
-
-- **`PRINT_DPI`** — DPI written into PNG (default **1440**).
-- **`PHYSICAL_IN`** — nominal square side in inches (**pixels** = `PHYSICAL_IN × PRINT_DPI`).
-- **`XMIN`/`XMAX`/`YMIN`/`YMAX`** — viewport in the complex plane.
-- **`MAX_ITER`** — quality vs speed.
-- **`p_low`, `p_high`, `gamma`** — halo stretch and contrast.
-- **`SUPERSAMPLE`** — `2` oversamples internally then **Lanczos** down‑scales (smoother, slower).
-
-Renders can take **minutes** at multi‑megapixel sizes.
+3. **Plan what you are printing on**  
+   **Not every object is suitable** (size, shape, surface, how it sits on the bed). If you are unsure, ask at DoES *before* you commit time to a design.
 
 ---
 
-## Git remote (`origin`)
+## What to bring (or have ready)
 
-Canonical **DynamicDevices** remote (configured as **`origin`** in local checkouts):
+- **An idea** — logo, photo, graphic, or something from eufyMake’s “Make It Real” style tools (see links below).
+- **A laptop** if you prepare jobs your own way (check with DoES whether a shared PC is set up).
+- **The object you want to print on** — **clean**, **dry**, and **allowed under local and manufacturer guidance**.
+- **Patience the first time** — first prints often teach you about bed alignment, height measurement, and ink use.
 
-```text
-git@github.com:DynamicDevices/does-eufy-printer.git
-```
+---
+
+## Simple path from “idea” to “printed object”
+
+These are **high‑level** steps; the on‑screen software changes over time, so treat the **official app and guides** as the source of truth.
+
+| Step | You… |
+|------|------|
+| 1 | **Install or open** the current **eufyMake printer software** (often referred to as **eufyMake Studio** — get it from the manufacturer’s **Software / Support** area on [eufymake.com](https://www.eufymake.com/)). |
+| 2 | **Create or import** your design. Many people start from a photo or artwork; the tools can help with **layers / texture height** and colour. |
+| 3 | **Choose material / preset** that matches what you are printing on (or follow DoES’s local profile if one exists). |
+| 4 | On the printer: **place the object** carefully, **clear the area** of loose items, and follow the **on‑printer / app prompts** (height scan, positioning, etc.). |
+| 5 | **Print**, stay nearby especially for the **first layers**, and note any **cleanup** steps (waste, wipes, lids — follow local and manufacturer instructions). |
+| 6 | **Ask for help** if the job looks wrong (smearing, wrong height, head strikes). Stopping early is cheaper than damaging the head. |
+
+Intro‑level context from the manufacturer:  
+[UV printing beginner’s guide (buying / concepts)](https://www.eufymake.com/blogs/buying-guides/how-to-choose-a-uv-printer).
+
+---
+
+## Software and learning resources (official)
+
+| What | Link |
+|------|------|
+| Main site (product, software downloads, support) | [eufymake.com](https://www.eufymake.com/) |
+| Web “Make It Real” creative area (as linked from product pages) | [makeitreal-beta.eufymake.com](https://makeitreal-beta.eufymake.com/) |
+| Blog / tutorials | [eufyMake blogs](https://www.eufymake.com/blogs/news) |
+| Community (social) | [eufyMake Facebook group](https://www.facebook.com/groups/eufymakeuvprintere1) (linked from manufacturer site) |
+| Manufacturer support email (from their FAQ) | `support@eufymake.com` |
+
+If a link changes, start from **eufymake.com** and use their **Support** / **Software** menus.
+
+---
+
+## When something goes wrong
+
+- **Pause or stop** if you hear odd noises, see the head drag, or smell anything unusual — then **get someone at DoES**.
+- **Don’t open consumables** you don’t need, and **don’t guess** on cleaning fluids — wrong chemistry can wreck the machine.
+- For **warranty / hardware faults**, you’ll need **whoever owns the machine** to contact **eufyMake support**; visitors usually can’t do that on someone else’s behalf.
+
+---
+
+## About this Git repository
+
+This repo is mainly **documentation** for DoES visitors. It also contains an **optional technical extra**: a small Python script that generates a **greyscale height map** (for experiments where brightness is treated as height in other tools). Most people using the E1 will **never** need it; it’s kept for members who like that workflow.
+
+- **Visitor guide:** this `README` (you’re reading it).
+- **Optional script:** `scripts/generate_mandelbrot_heightmap.py` — see comments at the top of that file. Dependencies: `requirements.txt`.
+
+Upstream Git remote (if you contribute changes): `git@github.com:DynamicDevices/does-eufy-printer.git`
+
+**Licensing:** This repo is **dual-licensed**. **Code** (`scripts/`, `requirements.txt`) is under the **[MIT License](LICENSE-MIT)**. **Documentation and images** (e.g. this README, `assets/`) are under **[CC BY 4.0](LICENSE-CC-BY-4.0.txt)** — share and adapt if you give appropriate credit (see `LICENSE` for the split, and credit Jackie Pease for the sample photo as noted above).
+
+---
+
+*DoES organisers: if you have a **fixed location**, **booking link**, or **local induction doc**, add a short subsection under “Before you touch the printer” so visitors see one clear place for Liverpool-specific rules.*
