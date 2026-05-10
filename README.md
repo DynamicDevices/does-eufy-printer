@@ -72,10 +72,14 @@ If you want to try something similar, the repo includes an optional script (`scr
 
 3. **Read the manufacturer’s safety notes on UV ink**  
    Ink and cleaning supplies need **sensible handling** (skin/eye contact, ventilation, storage). Start here:  
-   [All About eufyMake UV Ink](https://www.eufymake.com/blogs/news/all-about-eufymake-uv-ink).
+   [All About eufyMake UV Ink](https://www.eufymake.com/blogs/news/all-about-eufymake-uv-ink).  
+   **At DoES:** the **ink cartridges and supplies are inside the printer** and are **not** meant to be handled by casual users — see step **5** below.
 
 4. **Plan what you are printing on**  
    **Not every object is suitable** (size, shape, surface, how it sits on the bed). If you are unsure, ask at DoES *before* you commit time to a design.
+
+5. **Don’t touch the ink system — ask an organiser**  
+   Inks are **installed inside** the printer; **do not** open access panels to reach them, **remove cartridges**, or otherwise **handle consumables** unless you have been **explicitly trained** and asked to. If a message says ink is **low or empty**, or something looks wrong with **supplies**, **contact a DoES organiser or Director** so they can **restock or fix** it through the proper process.
 
 ---
 
@@ -126,7 +130,8 @@ If a link changes, start from **eufymake.com** and use their **Support** / **Sof
 
 - **Pause or stop** if you hear odd noises, see the head drag, or smell anything unusual — then **get someone at DoES**.
 - **If you see unexpected UV exposure**, an **open light path** when it should be shielded, or **anyone** might look into a **bright UV source** — **stop the job immediately**, ensure people move to a safe position, and **get help**. **Eye safety** is not something to troubleshoot alone.
-- **Don’t open consumables** you don’t need, and **don’t guess** on cleaning fluids — wrong chemistry can wreck the machine.
+- **Don’t open ink or cleaning compartments** or **handle cartridges** — inks are **inside** the printer at DoES and only **organisers / trained people** should service them; if ink is **low**, talk to a **DoES organiser or Director** (see **Before you touch the printer**, step **5**).
+- **Don’t guess** on cleaning fluids or other consumables — wrong chemistry can wreck the machine.
 - **Don’t cut mains power** or hard‑switch the printer off to “reset” a problem **without** talking to someone at DoES first — you can interrupt **scheduled head maintenance** and make **blockages** more likely.
 - For **warranty / hardware faults**, you’ll need **whoever owns the machine** to contact **eufyMake support**; visitors usually can’t do that on someone else’s behalf.
 
