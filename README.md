@@ -83,12 +83,10 @@ Renders can take **minutes** at multi‑megapixel sizes.
 
 ---
 
-## Git remote
+## Git remote (`origin`)
 
-Canonical Git remote (HTTPS equivalent on GitHub: `DynamicDevices/does-eufy-printer`):
+Canonical **DynamicDevices** remote (configured as **`origin`** in local checkouts):
 
 ```text
 git@github.com:DynamicDevices/does-eufy-printer.git
 ```
-
-Default remote name **`origin`** in this checkout.
