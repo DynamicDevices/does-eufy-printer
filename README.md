@@ -66,11 +66,14 @@ If you want to try something similar, the repo includes an optional script (`scr
 1. **Talk to someone at DoES first**  
    Makerspace tools are usually **induction-led**. Don’t assume you can walk up and use the machine alone. **Book an introduction** where offered — DoES often list these on **[Eventbrite](https://www.eventbrite.co.uk/)** (e.g. [this eufyMake E1 intro session](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)); new listings may appear for later dates. Otherwise ask at a **maker evening / workshop** or during your visit **where the printer and laptop live, whether they’re in use, and what the local rules are** (access — currently **first come, first served** after induction, unless a **booking** system is announced — plus network use, materials, cleanup). **After induction**, expect to use the **DoES laptop and desktop app** for full‑featured printing unless you are told differently.
 
-2. **Read the manufacturer’s safety notes on UV ink**  
+2. **UV light and your eyes (and other people in the space)**  
+   This type of printer uses **ultraviolet (UV) light** to cure the ink. **UV can harm eyesight** (and skin) if the machine is used wrongly or without understanding how it is meant to be operated. **Do not skip induction**: you need to know **safe working practice** — when lids or shields must stay closed, where it is safe to stand, and what to do if something looks odd — so you protect **yourself** and **others** using the workshop. If you are **at all unsure**, **stop** and ask someone at DoES **before** continuing.
+
+3. **Read the manufacturer’s safety notes on UV ink**  
    Ink and cleaning supplies need **sensible handling** (skin/eye contact, ventilation, storage). Start here:  
    [All About eufyMake UV Ink](https://www.eufymake.com/blogs/news/all-about-eufymake-uv-ink).
 
-3. **Plan what you are printing on**  
+4. **Plan what you are printing on**  
    **Not every object is suitable** (size, shape, surface, how it sits on the bed). If you are unsure, ask at DoES *before* you commit time to a design.
 
 ---
@@ -121,6 +124,7 @@ If a link changes, start from **eufymake.com** and use their **Support** / **Sof
 ## When something goes wrong
 
 - **Pause or stop** if you hear odd noises, see the head drag, or smell anything unusual — then **get someone at DoES**.
+- **If you see unexpected UV exposure**, an **open light path** when it should be shielded, or **anyone** might look into a **bright UV source** — **stop the job immediately**, ensure people move to a safe position, and **get help**. **Eye safety** is not something to troubleshoot alone.
 - **Don’t open consumables** you don’t need, and **don’t guess** on cleaning fluids — wrong chemistry can wreck the machine.
 - For **warranty / hardware faults**, you’ll need **whoever owns the machine** to contact **eufyMake support**; visitors usually can’t do that on someone else’s behalf.
 
