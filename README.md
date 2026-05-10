@@ -6,7 +6,7 @@ You do **not** need a technical background. When something below says “softwar
 
 ## Introduction sessions
 
-**eufyMake** have **lent** this printer to **[DoES Liverpool](https://doesliverpool.com/) makerspace** for **one year**. DoES are **organising introduction and induction events** for people who want to try the printer or learn the basics — many sessions are **bookable on Eventbrite**. Example: **[Introduction to the eufyMake E1 UV texture printer](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)** *(search Eventbrite or ask DoES for other dates if that listing has passed).*
+**eufyMake** has lent this printer to **[DoES Liverpool](https://doesliverpool.com/) makerspace** for **one year**. DoES are **organising introduction and induction events** for people who want to try the printer or learn the basics — many sessions are **bookable on Eventbrite**. Example: **[Introduction to the eufyMake E1 UV texture printer](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)** *(search Eventbrite or ask DoES for other dates if that listing has passed).*
 
 You can also check **[doesliverpool.com](https://doesliverpool.com/)** events and ask when you visit the space.
 
@@ -21,7 +21,7 @@ These details are for **after you have been inducted** — see the **Introductio
 - **Laptop:** There is a **laptop in the makerspace connected to this printer** that you can **use for jobs at DoES**. You do **not** have to bring your own computer unless you prefer your own files or setup (see **What to bring**).
 - **Network:** The printer is on the **DoES network**; the setup laptop is intended to **talk to the printer over that network** as part of the normal workflow (sending jobs, monitoring status — follow what you are shown on the day).
 - **Software:** eufyMake supplies **desktop** software (commonly called **eufyMake Studio**) and a **phone app**. The **desktop application is more fully featured**; the **phone app** is useful for quick tasks but is **not a full substitute** for desktop if you want every option (especially **textured / multi‑layer** work). **Prefer the desktop app on the DoES laptop** unless a facilitator suggests otherwise.
-- **Power and self-maintenance:** The printer runs **regular automatic maintenance** (cleaning / keep‑alive routines) so the **print heads** stay in good condition and are **less likely to block**. It should **remain connected to mains power** and sit in its **low‑power idle** state when nobody is printing — **do not** turn it off at the wall, unplug it, or strip its power **to save mains** unless a **DoES facilitator** tells you to (for example service or moving the machine). **Disrupting** those cycles can **clog** the heads and cause long downtime or cost for everyone.
+- **Power and self-maintenance:** The printer runs **regular automatic maintenance** (cleaning / keep‑alive routines) so the **print heads** stay in good condition and are **less likely to block**. It should **remain connected to mains power** and sit in its **low‑power idle** state when nobody is printing — **do not** turn it off at the wall, unplug it, or strip its power **to save mains** unless a **DoES facilitator or organiser** tells you to (for example service or moving the machine). **Disrupting** those cycles can **clog** the heads and cause long downtime or cost for everyone.
 
 ## Access: using the printer after induction
 
@@ -51,17 +51,6 @@ Official overview and specs: [eufyMake E1 product page](https://www.eufymake.com
 
 ---
 
-## Example from DoES: Mandelbrot on a coaster
-
-**Jackie Pease** ran this job on the DoES **eufyMake** printer: a **Mandelbrot set** (a famous mathematical fractal) on a **round coaster-sized disc**. The print shows **crisp edges** and **fine branching detail** around the black shape, on a **light grey** base — a good real-world sign that the machine can hold **high‑contrast artwork** and **intricate lines**.
-
-![Mandelbrot fractal printed on a circular coaster at DoES Liverpool — print by Jackie Pease](assets/jackie-pease-mandelbrot-coaster.png)
-
-*Photo: successful test print by Jackie Pease.  
-If you want to try something similar, the repo includes an optional script (`scripts/generate_mandelbrot_heightmap.py`) that can produce a **greyscale height map** for texture-style workflows — most people will prepare art directly in **eufyMake Studio** instead.*
-
----
-
 ## Before you touch the printer
 
 1. **Talk to someone at DoES first**  
@@ -80,6 +69,17 @@ If you want to try something similar, the repo includes an optional script (`scr
 
 5. **Don’t touch the ink system — ask an organiser**  
    Inks are **installed inside** the printer; **do not** open access panels to reach them, **remove cartridges**, or otherwise **handle consumables** unless you have been **explicitly trained** and asked to. If a message says ink is **low or empty**, or something looks wrong with **supplies**, **contact a DoES organiser or Director** so they can **restock or fix** it through the proper process.
+
+---
+
+## Example from DoES: Mandelbrot on a coaster
+
+**Jackie Pease** ran this job on the DoES **eufyMake** printer: a **Mandelbrot set** (a famous mathematical fractal) on a **round coaster-sized disc**. The print shows **crisp edges** and **fine branching detail** around the black shape, on a **light grey** base — a good real-world sign that the machine can hold **high‑contrast artwork** and **intricate lines**.
+
+![Mandelbrot fractal printed on a circular coaster at DoES Liverpool — print by Jackie Pease](assets/jackie-pease-mandelbrot-coaster.png)
+
+*Photo: successful test print by Jackie Pease.  
+If you want to try something similar, the repo includes an optional script (`scripts/generate_mandelbrot_heightmap.py`) that can produce a **greyscale height map** for texture-style workflows — most people will prepare art directly in **eufyMake Studio** instead.*
 
 ---
 
