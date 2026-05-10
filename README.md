@@ -10,6 +10,8 @@ You can also check **[doesliverpool.com](https://doesliverpool.com/)** events an
 
 **Events and running costs:** The **introduction events are free** to book. Using the printer **afterwards is not free**: DoES ask people to **pay for usage** so **ink and other running costs** are covered. The **anticipated** charge is on the order of **about £1 per millilitre of ink** used — check with DoES for the **exact** rule when you visit, because pricing may be refined over time. In practice that **goes a long way**: **simple flat prints** (mostly a thin layer of ink) are usually **cheap**, while **textured / “3D texture” prints** cost **more** because the machine builds height with **many layers** of ink.
 
+**Laptop, network, and apps at DoES:** In the makerspace there is a **laptop connected to this printer** that **you are welcome to use**. The printer is on the **DoES network**. eufyMake provides a **phone app** as well as **desktop software**; the **desktop application is more fully featured**, so for serious jobs or learning the full workflow it is better to use the **desktop app** (on the DoES laptop or your own machine) than the phone app alone.
+
 ---
 
 ## What this machine is (in plain language)
@@ -50,7 +52,7 @@ If you want to try something similar, the repo includes an optional script (`scr
 ## What to bring (or have ready)
 
 - **An idea** — logo, photo, graphic, or something from eufyMake’s “Make It Real” style tools (see links below).
-- **A laptop** if you prepare jobs your own way (check with DoES whether a shared PC is set up).
+- **Your own laptop (optional)** — there is already a **laptop at DoES wired up to the printer** you can use; bring yours if you prefer to work in your own files or software setup.
 - **The object you want to print on** — **clean**, **dry**, and **allowed under local and manufacturer guidance**.
 - **Patience the first time** — first prints often teach you about bed alignment, height measurement, and ink use.
 
@@ -62,7 +64,7 @@ These are **high‑level** steps; the on‑screen software changes over time, so
 
 | Step | You… |
 |------|------|
-| 1 | **Install or open** the current **eufyMake printer software** (often referred to as **eufyMake Studio** — get it from the manufacturer’s **Software / Support** area on [eufymake.com](https://www.eufymake.com/)). |
+| 1 | **Install or open** the current **eufyMake printer software** (often **eufyMake Studio** — from [eufymake.com](https://www.eufymake.com/) **Software / Support**). **At DoES** you can use the **desktop app on the space laptop** already connected to the machine; the **phone app** exists but **does less** than the desktop version. |
 | 2 | **Create or import** your design. Many people start from a photo or artwork; the tools can help with **layers / texture height** and colour. |
 | 3 | **Choose material / preset** that matches what you are printing on (or follow DoES’s local profile if one exists). |
 | 4 | On the printer: **place the object** carefully, **clear the area** of loose items, and follow the **on‑printer / app prompts** (height scan, positioning, etc.). |
@@ -79,6 +81,7 @@ Intro‑level context from the manufacturer:
 | What | Link |
 |------|------|
 | Main site (product, software downloads, support) | [eufymake.com](https://www.eufymake.com/) |
+| Mobile vs desktop | eufyMake offers a **phone app** and **desktop** software; the **desktop app is more fully featured** — use desktop (e.g. on the DoES laptop) for the full workflow. |
 | Web “Make It Real” creative area (as linked from product pages) | [makeitreal-beta.eufymake.com](https://makeitreal-beta.eufymake.com/) |
 | Blog / tutorials | [eufyMake blogs](https://www.eufymake.com/blogs/news) |
 | Community (social) | [eufyMake Facebook group](https://www.facebook.com/groups/eufymakeuvprintere1) (linked from manufacturer site) |
