@@ -10,6 +10,28 @@ You do **not** need a technical background. When something below says “softwar
 
 You can also check **[doesliverpool.com](https://doesliverpool.com/)** events and ask when you visit the space.
 
+### Photos: induction day — Saturday 9 May 2026
+
+A **very successful induction** for the loaned **eufyMake E1** at DoES took place on **Saturday 9 May 2026**. These pictures give a feel for the room setup, the **UV safety labelling** on the machine, and some of the **test pieces** people produced on the day.
+
+![eufyMake UV printer on the DoES workbench with laptop and tools — note Danger UV and induction stickers on the machine](assets/induction-2026-05-09-printer-workbench.png)
+
+![Participants gathered around the printer during the induction session](assets/induction-2026-05-09-group-at-printer.png)
+
+![Small orange disc on the printer bed, ready for a test print](assets/induction-2026-05-09-disc-inside-printer.png)
+
+![Custom key fob with a full-colour cartoon graphic on the vacuum bed](assets/induction-2026-05-09-keychain-on-print-bed.png)
+
+![Finished plastic key fob held in the hand after printing](assets/induction-2026-05-09-keychain-finished.png)
+
+![Circular fob with an Earth image printed in full colour](assets/induction-2026-05-09-earth-key-fob.png)
+
+![Phone case positioned on a honeycomb jig inside the printer](assets/induction-2026-05-09-phone-case-on-jig.png)
+
+![Phone case with a small full-colour dog graphic printed on the back — E1 jig visible on the platen](assets/induction-2026-05-09-phone-case-dog-print.png)
+
+*These images document a community session at DoES; when re‑using them elsewhere, credit **DoES Liverpool** and respect people’s privacy if faces are visible.*
+
 ## Time, money, and materials
 
 The **introduction events are free** to book. Using the printer **afterwards is not free**: DoES ask people to **pay for usage** so **ink and other running costs** are covered. The **anticipated** charge is on the order of **about £1 per millilitre of ink** used — check with DoES for the **exact** rule when you visit, because pricing may be refined over time. In practice that **goes a long way**: **simple flat prints** (mostly a thin layer of ink) are usually **cheap**, while **textured / “3D texture” prints** cost **more** because the machine builds height with **many layers** of ink.
