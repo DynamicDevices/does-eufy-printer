@@ -26,13 +26,17 @@ These details are for **after you have been inducted** — see the **Introductio
 
 **Right now**, once you are inducted, time on the eufyMake printer is **first come, first served** during your visit — **check with others** in the workshop so you are not jumping ahead of someone already set up.
 
-If the printer becomes **heavily used** (“subscribed” / always in demand), DoES may **put a booking system in place**, **similar in spirit to the laser cutters** ([laser cutting at DoES](https://doesliverpool.com/laser-cutting/) — paid slots and inductions today). **Watch the [wiki](https://github.com/DoESLiverpool/somebody-should/wiki)** or **ask in the space** for the latest rule so you don’t rely on an out‑of‑date note.
+If the printer becomes **heavily used** (“subscribed” / always in demand), DoES may **put a booking system in place**, **similar in spirit to the laser cutters** ([laser cutting at DoES](https://doesliverpool.com/laser-cutting/) — paid slots and inductions today). **Watch the [wiki](https://github.com/DoESLiverpool/somebody-should/wiki)**, **ask in the space**, or **post to the [DoES mailing list](mailto:does-liverpool@googlegroups.com)** for the latest rule so you don’t rely on an out‑of‑date note.
 
 ## Learning together — please share what you find
 
 The eufyMake kit is **very new** in the makerspace, and **everyone at DoES is still figuring out** the best ways to use the hardware and software fairly and well. **You are part of that.**
 
 **DoES asks people who try the printer** — after inductions, experiments, or paid jobs — to **write up what they learned** for the **community wiki** ([DoES Liverpool documentation on GitHub](https://github.com/DoESLiverpool/somebody-should/wiki)): what worked, what didn’t, materials, settings, gotchas, and photos if you can. That **helps the next visitor** and saves repeating the same mistakes. If you are **not sure where to add** your note, **ask someone at DoES** or look for an existing **eufyMake / UV printer** page to extend.
+
+## Questions?
+
+If something is **unclear** or you are **stuck** outside a staffed session, you can ask on the **DoES community mailing list**: **[does-liverpool@googlegroups.com](mailto:does-liverpool@googlegroups.com)** (hosted on Google Groups — join the list to post). **Tip:** say what you **already tried**, what **equipment** you are using, and attach a **photo** of the job or error if it helps; answers come from **members and volunteers**, not a help desk.
 
 ---
 
@@ -107,6 +111,7 @@ Intro‑level context from the manufacturer:
 | Web “Make It Real” creative area (as linked from product pages) | [makeitreal-beta.eufymake.com](https://makeitreal-beta.eufymake.com/) |
 | Blog / tutorials | [eufyMake blogs](https://www.eufymake.com/blogs/news) |
 | Community (social) | [eufyMake Facebook group](https://www.facebook.com/groups/eufymakeuvprintere1) (linked from manufacturer site) |
+| DoES community (questions) | Mailing list: **[does-liverpool@googlegroups.com](mailto:does-liverpool@googlegroups.com)** — good for **Liverpool makerspace** questions about access, the wiki, or the printer at DoES |
 | Manufacturer support email (from their FAQ) | `support@eufymake.com` |
 
 If a link changes, start from **eufymake.com** and use their **Support** / **Software** menus.
