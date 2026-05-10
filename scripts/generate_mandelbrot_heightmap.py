@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 """
-Optional extra (not required to use the eufyMake printer):
+Optional extra (not required to use the eufyMake printer at DoES):
+
+At the space, designs are normally prepared in eufyMake’s desktop app on the
+makerspace laptop; this script is only for separate greyscale height-map experiments.
 
 Greyscale Mandelbrot height map for workflows that treat brightness as height
 (e.g. some relief / texture experiments). Convention here: white = zero height,

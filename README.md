@@ -2,15 +2,25 @@
 
 Simple notes for **anyone visiting [DoES Liverpool](https://doesliverpool.com/)** who wants to use the **[eufyMake](https://www.eufymake.com/) E1** — a desktop **UV inkjet** printer that can build **raised, full‑colour “3D texture”** on flat objects (and more with add‑ons you may not have on site).
 
-You do **not** need a technical background. When something below says “software” or “file”, think “the app on the laptop” and “the thing you save before printing”.
+You do **not** need a technical background. When something below says “software” or “file”, think “the **desktop app** on the **DoES laptop** (or your own computer)” and “the project you save before printing”.
 
-**Loan and introductions:** **eufyMake** have **lent** this printer to **[DoES Liverpool](https://doesliverpool.com/) makerspace** for **one year**. DoES are **organising introduction and induction events** for people who want to try the printer or learn the basics — many sessions are **bookable on Eventbrite**. Example: **[Introduction to the eufyMake E1 UV texture printer](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)** *(search Eventbrite or ask DoES for other dates if that listing has passed).*
+## Introduction sessions
+
+**eufyMake** have **lent** this printer to **[DoES Liverpool](https://doesliverpool.com/) makerspace** for **one year**. DoES are **organising introduction and induction events** for people who want to try the printer or learn the basics — many sessions are **bookable on Eventbrite**. Example: **[Introduction to the eufyMake E1 UV texture printer](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)** *(search Eventbrite or ask DoES for other dates if that listing has passed).*
 
 You can also check **[doesliverpool.com](https://doesliverpool.com/)** events and ask when you visit the space.
 
-**Events and running costs:** The **introduction events are free** to book. Using the printer **afterwards is not free**: DoES ask people to **pay for usage** so **ink and other running costs** are covered. The **anticipated** charge is on the order of **about £1 per millilitre of ink** used — check with DoES for the **exact** rule when you visit, because pricing may be refined over time. In practice that **goes a long way**: **simple flat prints** (mostly a thin layer of ink) are usually **cheap**, while **textured / “3D texture” prints** cost **more** because the machine builds height with **many layers** of ink.
+## Time, money, and materials
 
-**Laptop, network, and apps at DoES:** In the makerspace there is a **laptop connected to this printer** that **you are welcome to use**. The printer is on the **DoES network**. eufyMake provides a **phone app** as well as **desktop software**; the **desktop application is more fully featured**, so for serious jobs or learning the full workflow it is better to use the **desktop app** (on the DoES laptop or your own machine) than the phone app alone.
+The **introduction events are free** to book. Using the printer **afterwards is not free**: DoES ask people to **pay for usage** so **ink and other running costs** are covered. The **anticipated** charge is on the order of **about £1 per millilitre of ink** used — check with DoES for the **exact** rule when you visit, because pricing may be refined over time. In practice that **goes a long way**: **simple flat prints** (mostly a thin layer of ink) are usually **cheap**, while **textured / “3D texture” prints** cost **more** because the machine builds height with **many layers** of ink.
+
+## What is already set up at DoES
+
+These details are for **after you have been inducted** — see the **Introduction sessions** section above.
+
+- **Laptop:** There is a **laptop in the makerspace connected to this printer** that you can **use for jobs at DoES**. You do **not** have to bring your own computer unless you prefer your own files or setup (see **What to bring**).
+- **Network:** The printer is on the **DoES network**; the setup laptop is intended to **talk to the printer over that network** as part of the normal workflow (sending jobs, monitoring status — follow what you are shown on the day).
+- **Software:** eufyMake supplies **desktop** software (commonly called **eufyMake Studio**) and a **phone app**. The **desktop application is more fully featured**; the **phone app** is useful for quick tasks but is **not a full substitute** for desktop if you want every option (especially **textured / multi‑layer** work). **Prefer the desktop app on the DoES laptop** unless a facilitator suggests otherwise.
 
 ---
 
@@ -18,7 +28,7 @@ You can also check **[doesliverpool.com](https://doesliverpool.com/)** events an
 
 - **It is not a normal paper printer.** It jets **UV‑cured ink** onto things like plastic, wood, metal, ceramic, acrylic, and many other surfaces (always check the manufacturer’s guidance for your exact item).
 - **It can print tall enough layers that you can feel the design** — embossing, brush‑stroke effects, textures. Marketing often calls this **“3D‑texture UV printing”**; the ink hardens under UV light.
-- **Typical workflow:** prepare a design in **eufyMake’s software**, place your object on the bed, let the printer measure height where needed, then print.
+- **Typical workflow:** prepare a design in **eufyMake’s desktop software** (or a lighter workflow on the **phone app**), place your object on the bed, let the printer measure height where needed, then send the job from the app — **at DoES, usually from the laptop on the DoES network**.
 
 Official overview and specs: [eufyMake E1 product page](https://www.eufymake.com/products/eufymake-e1).
 
@@ -38,7 +48,7 @@ If you want to try something similar, the repo includes an optional script (`scr
 ## Before you touch the printer
 
 1. **Talk to someone at DoES first**  
-   Makerspace tools are usually **induction-led**. Don’t assume you can walk up and use the machine alone. **Book an introduction** where offered — DoES often list these on **[Eventbrite](https://www.eventbrite.co.uk/)** (e.g. [this eufyMake E1 intro session](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)); new listings may appear for later dates. Otherwise ask at a **maker evening / workshop** or during your visit **where the printer lives, whether it’s in use, and what the local rules are** (booking, materials, cleanup).
+   Makerspace tools are usually **induction-led**. Don’t assume you can walk up and use the machine alone. **Book an introduction** where offered — DoES often list these on **[Eventbrite](https://www.eventbrite.co.uk/)** (e.g. [this eufyMake E1 intro session](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)); new listings may appear for later dates. Otherwise ask at a **maker evening / workshop** or during your visit **where the printer and laptop live, whether they’re in use, and what the local rules are** (booking, network use, materials, cleanup). **After induction**, expect to use the **DoES laptop and desktop app** for full‑featured printing unless you are told differently.
 
 2. **Read the manufacturer’s safety notes on UV ink**  
    Ink and cleaning supplies need **sensible handling** (skin/eye contact, ventilation, storage). Start here:  
@@ -52,7 +62,7 @@ If you want to try something similar, the repo includes an optional script (`scr
 ## What to bring (or have ready)
 
 - **An idea** — logo, photo, graphic, or something from eufyMake’s “Make It Real” style tools (see links below).
-- **Your own laptop (optional)** — there is already a **laptop at DoES wired up to the printer** you can use; bring yours if you prefer to work in your own files or software setup.
+- **Your own laptop (optional)** — a **laptop at DoES is already set up with the printer on the DoES network**; bring yours only if you prefer your own files, accounts, or software, and **check with DoES** whether that is appropriate for your session (Wi‑Fi, drivers, and accounts vary).
 - **The object you want to print on** — **clean**, **dry**, and **allowed under local and manufacturer guidance**.
 - **Patience the first time** — first prints often teach you about bed alignment, height measurement, and ink use.
 
@@ -64,7 +74,7 @@ These are **high‑level** steps; the on‑screen software changes over time, so
 
 | Step | You… |
 |------|------|
-| 1 | **Install or open** the current **eufyMake printer software** (often **eufyMake Studio** — from [eufymake.com](https://www.eufymake.com/) **Software / Support**). **At DoES** you can use the **desktop app on the space laptop** already connected to the machine; the **phone app** exists but **does less** than the desktop version. |
+| 1 | **Use the desktop software** (**eufyMake Studio** — from [eufymake.com](https://www.eufymake.com/) under **Software / Support**). **At DoES:** open it on the **makerspace laptop** that is **paired with the printer on the DoES network** (you are **not** required to install anything on your own PC for a typical visit). **At home beforehand:** you *can* install the same desktop app to prepare files. **Phone app:** optional; **less capable** than desktop — fine for small tasks, **not** the full workflow for textured prints. |
 | 2 | **Create or import** your design. Many people start from a photo or artwork; the tools can help with **layers / texture height** and colour. |
 | 3 | **Choose material / preset** that matches what you are printing on (or follow DoES’s local profile if one exists). |
 | 4 | On the printer: **place the object** carefully, **clear the area** of loose items, and follow the **on‑printer / app prompts** (height scan, positioning, etc.). |
@@ -81,7 +91,7 @@ Intro‑level context from the manufacturer:
 | What | Link |
 |------|------|
 | Main site (product, software downloads, support) | [eufymake.com](https://www.eufymake.com/) |
-| Mobile vs desktop | eufyMake offers a **phone app** and **desktop** software; the **desktop app is more fully featured** — use desktop (e.g. on the DoES laptop) for the full workflow. |
+| Mobile vs desktop | **Desktop** (**eufyMake Studio**) is **more fully featured**; **phone app** is optional and **lighter**. **At DoES**, use the **desktop app on the provided laptop** (printer on **DoES network**) for normal sessions. |
 | Web “Make It Real” creative area (as linked from product pages) | [makeitreal-beta.eufymake.com](https://makeitreal-beta.eufymake.com/) |
 | Blog / tutorials | [eufyMake blogs](https://www.eufymake.com/blogs/news) |
 | Community (social) | [eufyMake Facebook group](https://www.facebook.com/groups/eufymakeuvprintere1) (linked from manufacturer site) |
@@ -112,4 +122,4 @@ Upstream Git remote (if you contribute changes): `git@github.com:DynamicDevices/
 
 ---
 
-*DoES organisers: if you have a **fixed location**, **booking link**, or **local induction doc**, add a short subsection under “Before you touch the printer” so visitors see one clear place for Liverpool-specific rules.*
+*DoES organisers: if you have a **fixed location**, **laptop login / account policy**, **Wi‑Fi details** for bring‑your‑own‑device, **booking link**, or **local induction doc**, add them under **Before you touch the printer** or **What is already set up at DoES** so visitors have one clear place for Liverpool‑specific rules.*
