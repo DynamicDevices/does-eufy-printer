@@ -22,6 +22,12 @@ These details are for **after you have been inducted** — see the **Introductio
 - **Network:** The printer is on the **DoES network**; the setup laptop is intended to **talk to the printer over that network** as part of the normal workflow (sending jobs, monitoring status — follow what you are shown on the day).
 - **Software:** eufyMake supplies **desktop** software (commonly called **eufyMake Studio**) and a **phone app**. The **desktop application is more fully featured**; the **phone app** is useful for quick tasks but is **not a full substitute** for desktop if you want every option (especially **textured / multi‑layer** work). **Prefer the desktop app on the DoES laptop** unless a facilitator suggests otherwise.
 
+## Learning together — please share what you find
+
+The eufyMake kit is **very new** in the makerspace, and **everyone at DoES is still figuring out** the best ways to use the hardware and software fairly and well. **You are part of that.**
+
+**DoES asks people who try the printer** — after inductions, experiments, or paid jobs — to **write up what they learned** for the **community wiki** ([DoES Liverpool documentation on GitHub](https://github.com/DoESLiverpool/somebody-should/wiki)): what worked, what didn’t, materials, settings, gotchas, and photos if you can. That **helps the next visitor** and saves repeating the same mistakes. If you are **not sure where to add** your note, **ask someone at DoES** or look for an existing **eufyMake / UV printer** page to extend.
+
 ---
 
 ## What this machine is (in plain language)
