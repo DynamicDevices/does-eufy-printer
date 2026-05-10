@@ -8,6 +8,8 @@ You do **not** need a technical background. When something below says “softwar
 
 You can also check **[doesliverpool.com](https://doesliverpool.com/)** events and ask when you visit the space.
 
+**Events and running costs:** The **introduction events are free** to book. Using the printer **afterwards is not free**: DoES ask people to **pay for usage** so **ink and other running costs** are covered. The **anticipated** charge is on the order of **about £1 per millilitre of ink** used — check with DoES for the **exact** rule when you visit, because pricing may be refined over time. In practice that **goes a long way**: **simple flat prints** (mostly a thin layer of ink) are usually **cheap**, while **textured / “3D texture” prints** cost **more** because the machine builds height with **many layers** of ink.
+
 ---
 
 ## What this machine is (in plain language)
