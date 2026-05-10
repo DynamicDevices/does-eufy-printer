@@ -22,6 +22,12 @@ These details are for **after you have been inducted** — see the **Introductio
 - **Network:** The printer is on the **DoES network**; the setup laptop is intended to **talk to the printer over that network** as part of the normal workflow (sending jobs, monitoring status — follow what you are shown on the day).
 - **Software:** eufyMake supplies **desktop** software (commonly called **eufyMake Studio**) and a **phone app**. The **desktop application is more fully featured**; the **phone app** is useful for quick tasks but is **not a full substitute** for desktop if you want every option (especially **textured / multi‑layer** work). **Prefer the desktop app on the DoES laptop** unless a facilitator suggests otherwise.
 
+## Access: using the printer after induction
+
+**Right now**, once you are inducted, time on the eufyMake printer is **first come, first served** during your visit — **check with others** in the workshop so you are not jumping ahead of someone already set up.
+
+If the printer becomes **heavily used** (“subscribed” / always in demand), DoES may **put a booking system in place**, **similar in spirit to the laser cutters** ([laser cutting at DoES](https://doesliverpool.com/laser-cutting/) — paid slots and inductions today). **Watch the [wiki](https://github.com/DoESLiverpool/somebody-should/wiki)** or **ask in the space** for the latest rule so you don’t rely on an out‑of‑date note.
+
 ## Learning together — please share what you find
 
 The eufyMake kit is **very new** in the makerspace, and **everyone at DoES is still figuring out** the best ways to use the hardware and software fairly and well. **You are part of that.**
@@ -54,7 +60,7 @@ If you want to try something similar, the repo includes an optional script (`scr
 ## Before you touch the printer
 
 1. **Talk to someone at DoES first**  
-   Makerspace tools are usually **induction-led**. Don’t assume you can walk up and use the machine alone. **Book an introduction** where offered — DoES often list these on **[Eventbrite](https://www.eventbrite.co.uk/)** (e.g. [this eufyMake E1 intro session](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)); new listings may appear for later dates. Otherwise ask at a **maker evening / workshop** or during your visit **where the printer and laptop live, whether they’re in use, and what the local rules are** (booking, network use, materials, cleanup). **After induction**, expect to use the **DoES laptop and desktop app** for full‑featured printing unless you are told differently.
+   Makerspace tools are usually **induction-led**. Don’t assume you can walk up and use the machine alone. **Book an introduction** where offered — DoES often list these on **[Eventbrite](https://www.eventbrite.co.uk/)** (e.g. [this eufyMake E1 intro session](https://www.eventbrite.co.uk/e/introduction-to-the-eufymake-e1-uv-texture-printer-tickets-1988761821143)); new listings may appear for later dates. Otherwise ask at a **maker evening / workshop** or during your visit **where the printer and laptop live, whether they’re in use, and what the local rules are** (access — currently **first come, first served** after induction, unless a **booking** system is announced — plus network use, materials, cleanup). **After induction**, expect to use the **DoES laptop and desktop app** for full‑featured printing unless you are told differently.
 
 2. **Read the manufacturer’s safety notes on UV ink**  
    Ink and cleaning supplies need **sensible handling** (skin/eye contact, ventilation, storage). Start here:  
